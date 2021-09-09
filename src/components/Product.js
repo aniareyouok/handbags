@@ -1,5 +1,6 @@
 import React from "react";
 
+//This is the component for the product gallery with props for image, pricing, title and sticker.
 function Product(props) {
     return <>
         <article>
