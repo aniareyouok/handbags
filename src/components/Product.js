@@ -1,12 +1,12 @@
 import React from "react";
 
-function Product({sticker, image, title, price}) {
+function Product(props) {
     return <>
         <article>
-            <span>{sticker}</span>
-            <img src={image}>product image</img>
-            <p>{title}</p>
-            <h4>{price}</h4>
+            <span>{props.sticker}</span>
+            <img alt={props.imgtext} src={props.image}/>
+            <p>{props.title}</p>
+            <h4>{props.price}</h4>
         </article>
 
     </>
