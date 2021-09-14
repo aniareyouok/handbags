@@ -1,9 +1,11 @@
 import React from "react";
 
-function Buttons(props) {
+function Buttons({text}) {
     return <>
-        <button type="button">{props.text}</button>
-    </>
+        <button type="button">{text}
+        </button>
+
+    </>;
 
 }
 

@@ -20,7 +20,7 @@ function App() {
         <nav>
             <Buttons text="to the collection"/>
             <Buttons text="shop all bags"/>
-            <Buttons text="pre-orders"/>
+            <Buttons disabled="true" text="pre-orders"/>
         </nav>
 
       {/*Product gallery*/}
