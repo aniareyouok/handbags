@@ -1,16 +1,16 @@
 import React from "react";
 
 // This works as a component with props for the footer but not yet as a function
-function Tile(props) {
-    if(props.textOne != null) {
+function Tile([title, textOne, textTwo, imgtext, image]) {
+    if (image) {
         return <>
-            <h2>{props.title}</h2>
-            <p>{props.textOne}</p>
-            <p>{props.textTwo}</p>
+            <img alt={imgtext} src={image}/>
         </>
     } else {
         return <>
-            <img alt={props.imgtext} src={props.image}/>
+            <h2>{title}</h2>
+            <p>{textOne}</p>
+            <p>{textTwo}</p>
         </>
     }
 
