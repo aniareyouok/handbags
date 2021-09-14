@@ -6,15 +6,15 @@ import React from "react";
 // otherwise a header for the "title" and two "paragraphs" will be given
 function Tile({title, textOne, textTwo, imgtext, image}) {
     if (image) {
-        return <>
+        return <section>
             <img alt={imgtext} src={image}/>
-        </>
+            </section>
     } else {
-        return <>
+        return <section>
             <h2>{title}</h2>
             <p>{textOne}</p>
             <p>{textTwo}</p>
-        </>
+        </section>
     }
 
 }

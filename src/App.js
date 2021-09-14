@@ -59,32 +59,24 @@ function App() {
       {/*Footer with four tiles*/}
       {/*Had to remove props that are not in use cause Tile function is not working yet*/}
           <footer>
-              <section>
                   <Tile
                       title="The brand"
                       textOne="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
                       textTwo="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
-                      />
-              </section>
-              <section>
+                  />
                   <Tile
                       image={brand}
                       imgtext="picture of brand or designer"
                   />
-              </section>
-              <section>
                   <Tile
                       image={ourStory}
                       imgtext="picture of brand or designer"
                   />
-              </section>
-              <section>
                   <Tile
                       title="Our story"
                       textOne="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
                       textTwo="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
                   />
-              </section>
 
           </footer>
 
