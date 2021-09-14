@@ -1,6 +1,9 @@
 import React from "react";
 
-// This works as a component with props for the footer but not yet as a function
+// This is a component with dynamic tiles and properties in four different sections,
+// as wel as a function where if an image is given
+// the "image" and "image alternative text" is given as properties
+// otherwise a header for the "title" and two "paragraphs" will be given
 function Tile({title, textOne, textTwo, imgtext, image}) {
     if (image) {
         return <>
