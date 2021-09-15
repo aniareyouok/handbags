@@ -19,6 +19,7 @@ function App() {
       <h1>Handbags & Purses</h1>
 
       {/*Buttons*/}
+      {/*Could not disable the pre-order button, where did I go wrong?*/}
         <nav>
             <Buttons text="to the collection"/>
             <Buttons text="shop all bags"/>
@@ -59,7 +60,7 @@ function App() {
         </main>
 
       {/*Footer with four tiles*/}
-      {/*Had to remove props that are not in use cause Tile function is not working yet*/}
+      {/*The text property is actually not doing anything here, please help*/}
           <footer>
                   <Tile
                       title="The brand"
