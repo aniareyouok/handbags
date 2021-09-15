@@ -6,9 +6,11 @@ import bag_1 from './assets/bag_1.png';
 import bag_2 from './assets/bag_2.png';
 import bag_3 from './assets/bag_3.png';
 import bag_4 from './assets/bag_4.png';
-import Tile from "./components/Tile";
+import Tile from './components/Tile';
 import brand from './assets/brand.png';
 import ourStory from './assets/our_story.png';
+import Text from './assets/Text.js';
+
 
 
 function App() {
@@ -61,8 +63,7 @@ function App() {
           <footer>
                   <Tile
                       title="The brand"
-                      textOne="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
-                      textTwo="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
+                      text={Text}
                   />
                   <Tile
                       image={brand}
@@ -74,8 +75,7 @@ function App() {
                   />
                   <Tile
                       title="Our story"
-                      textOne="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
-                      textTwo="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aliquam dicta dolor ducimus eveniet hic iure magni necessitatibus numquam quae!"
+                      text={Text}
                   />
 
           </footer>
